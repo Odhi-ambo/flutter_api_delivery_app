@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class Onboarding extends StatefulWidget {
   const Onboarding({super.key});
@@ -10,6 +11,8 @@ class Onboarding extends StatefulWidget {
 class _onboardingState extends State<Onboarding> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return  Scaffold(
+      body: Container(child: Column(children: [],),),
+    );
   }
 }
