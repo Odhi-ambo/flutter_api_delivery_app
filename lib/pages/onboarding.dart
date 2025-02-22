@@ -10,6 +10,6 @@ class Onboarding extends StatefulWidget {
 class _onboardingState extends State<Onboarding> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Scaffold();
   }
 }
