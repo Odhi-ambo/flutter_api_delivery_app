@@ -12,9 +12,10 @@ class _onboardingState extends State<Onboarding> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 234, 235, 231),
       body: Container(
-        child: const Column(
-          children: [],
+        child: Column(
+          children: [Image.asset('images/images (1).jpeg')],
         ),
       ),
     );
