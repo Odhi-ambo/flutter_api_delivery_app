@@ -15,7 +15,7 @@ class _onboardingState extends State<Onboarding> {
       body: Container(
         child: Column(
           children: [Image.asset('images/images (1).jpeg'),
-          Text('Explore \nthe best products', style: TextStyle(),)],
+          Text('Explore \nthe best products', style: TextStyle(color: Colors.black),)],
         ),
       ),
     );
