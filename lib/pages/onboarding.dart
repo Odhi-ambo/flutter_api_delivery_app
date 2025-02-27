@@ -14,7 +14,8 @@ class _onboardingState extends State<Onboarding> {
       backgroundColor:const  Color.fromARGB(255, 234, 235, 231),
       body: Container(
         child: Column(
-          children: [Image.asset('images/images (1).jpeg')],
+          children: [Image.asset('images/images (1).jpeg'),
+          Text('Explore \nthe best products', )],
         ),
       ),
     );
