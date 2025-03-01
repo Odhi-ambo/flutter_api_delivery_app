@@ -31,7 +31,7 @@ class _onboardingState extends State<Onboarding> {
                     fontWeight: FontWeight.bold),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
