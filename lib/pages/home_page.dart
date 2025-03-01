@@ -12,7 +12,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Column(
+        margin: const EdgeInsets.only(top: 50),
+        child: const Column(
           children: [
             Text(
               "Hey, Mike",
