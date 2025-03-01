@@ -32,6 +32,7 @@ class _onboardingState extends State<Onboarding> {
               ),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Container(
                   padding: const EdgeInsets.all(20),
