@@ -13,11 +13,9 @@ class _onboardingState extends State<Onboarding> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor:const  Color.fromARGB(255, 234, 235, 231),
-      body: Container(
-        child: Column(
-          children: [Image.asset('images/images (1).jpeg'),
-          Text('Explore \nthe best products', style: TextStyle(color: Colors.black,fontSize: 30,fontWeight: FontWeight.bold),)],
-        ),
+      body: Column(
+        children: [Image.asset('images/images (1).jpeg'),
+        Text('Explore \nthe best products', style: TextStyle(color: Colors.black,fontSize: 30,fontWeight: FontWeight.bold),)],
       ),
     );
   }
