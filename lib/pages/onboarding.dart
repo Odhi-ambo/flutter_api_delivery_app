@@ -16,7 +16,7 @@ class _onboardingState extends State<Onboarding> {
       body: Column(
         children: [
           Image.asset('images/images.jpeg'),
-          Text(
+          const Text(
             'Explore \nthe best products',
             style: TextStyle(
                 color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),
