@@ -7,6 +7,7 @@ class Onboarding extends StatefulWidget {
   State<Onboarding> createState() => _onboardingState();
 }
 
+// ignore: camel_case_types
 class _onboardingState extends State<Onboarding> {
   @override
   Widget build(BuildContext context) {
