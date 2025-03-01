@@ -35,10 +35,10 @@ class _onboardingState extends State<Onboarding> {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Container(
+                  margin: const EdgeInsets.only(right: 20),
                   padding: const EdgeInsets.all(20),
                   decoration: const BoxDecoration(
-                    color: Colors.black,
-                  ),
+                      color: Colors.black, shape: BoxShape.circle),
                   child: const Text(
                     "Next",
                     style: TextStyle(
