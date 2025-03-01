@@ -14,10 +14,11 @@ class _onboardingState extends State<Onboarding> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 234, 235, 231),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset('images/images.jpeg'),
           const Text(
-            'Explore \nthe best products',
+            'Explore \nthe best\nproducts',
             style: TextStyle(
                 color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),
           )
