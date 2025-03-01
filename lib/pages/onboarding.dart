@@ -36,10 +36,10 @@ class _onboardingState extends State<Onboarding> {
               children: [
                 Container(
                   padding: const EdgeInsets.all(20),
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.black,
                   ),
-                  child: Text(
+                  child: const Text(
                     "Next",
                     style: TextStyle(
                         color: Colors.white,
