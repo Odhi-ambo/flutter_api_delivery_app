@@ -31,7 +31,18 @@ class _onboardingState extends State<Onboarding> {
                     fontWeight: FontWeight.bold),
               ),
             ),
-            Text("Next", style: TextStyle(),)
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.black,
+              ),
+              child: Text(
+                "Next",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),
+              ),
+            )
           ],
         ),
       ),
