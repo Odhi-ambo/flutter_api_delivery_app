@@ -31,17 +31,22 @@ class _onboardingState extends State<Onboarding> {
                     fontWeight: FontWeight.bold),
               ),
             ),
-            Container(
-              decoration: BoxDecoration(
-                color: Colors.black,
-              ),
-              child: Text(
-                "Next",
-                style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
-              ),
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(20),
+                  decoration: BoxDecoration(
+                    color: Colors.black,
+                  ),
+                  child: Text(
+                    "Next",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ],
             )
           ],
         ),
