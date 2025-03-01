@@ -31,6 +31,9 @@ class _onboardingState extends State<Onboarding> {
                     fontWeight: FontWeight.bold),
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
