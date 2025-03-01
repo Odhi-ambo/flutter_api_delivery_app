@@ -21,16 +21,17 @@ class _onboardingState extends State<Onboarding> {
             Image.asset(
               'assets/images/headphone.PNG',
             ),
-            Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: const Text(
+            const Padding(
+              padding: EdgeInsets.all(20.0),
+              child: Text(
                 'Explore \nthe best\nproducts',
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 30,
                     fontWeight: FontWeight.bold),
               ),
-            )
+            ),
+            Text("Next", style: TextStyle(),)
           ],
         ),
       ),
