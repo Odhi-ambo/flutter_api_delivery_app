@@ -12,14 +12,14 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        margin: const EdgeInsets.only(top: 50),
+        margin: const EdgeInsets.only(top: 50, left: 20),
         child: const Column(
           children: [
             Text(
               "Hey, Mike",
               style: TextStyle(
                   color: Colors.black,
-                  fontSize: 30,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold),
             )
           ],
