@@ -21,12 +21,21 @@ class _HomePageState extends State<HomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  "Hey, Rebecca!",
-                  style: AppWidget.boldTextFieldStyle(),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Hey, Rebecca!",
+                      style: AppWidget.boldTextFieldStyle(),
+                    ),
+                    Text(
+                      'How You?!',
+                      style: AppWidget.lightTextFieldStyle(),
+                    )
+                  ],
                 ),
                 ClipRRect(
-                  
+                  borderRadius: BorderRadius.circular(20),
                   child: Image.asset(
                     "assets/images/becky.jpg",
                     height: 50,
@@ -36,10 +45,6 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
-            Text(
-              'How You?!',
-              style: AppWidget.lightTextFieldStyle(),
-            )
           ],
         ),
       ),
