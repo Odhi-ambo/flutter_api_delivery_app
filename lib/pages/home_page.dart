@@ -1,3 +1,4 @@
+import 'package:deli_app/widget/support_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,15 +14,12 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Container(
         margin: const EdgeInsets.only(top: 50, left: 20),
-        child: const Column(
+        child:  Column(
           children: [
             Text(
               "Hey, Rebecca!",
-              style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold),
-            )
+              style: AppWidget.boldTextFieldStyle(),
+              ),
           ],
         ),
       ),
