@@ -23,10 +23,7 @@ class _HomePageState extends State<HomePage> {
             ),
             Text(
               'How You?!',
-              style: TextStyle(
-                  color: Colors.black54,
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold),
+              style: AppWidget.lightTextFieldStyle(),
             )
           ],
         ),
