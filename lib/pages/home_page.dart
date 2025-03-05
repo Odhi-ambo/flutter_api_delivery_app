@@ -45,6 +45,11 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
+            Container(
+              decoration: BoxDecoration(color: Colors.white),
+              width: MediaQuery.of(context).size.width,
+              child: TextField(),
+            )
           ],
         ),
       ),
