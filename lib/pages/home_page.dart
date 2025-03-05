@@ -46,8 +46,12 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
+            SizedBox(
+              height: 30,
+            ),
             Container(
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(
+                  color: Colors.white, borderRadius: BorderRadius.circular(20)),
               width: MediaQuery.of(context).size.width,
               child: TextField(
                 decoration: InputDecoration(border: InputBorder.none),
