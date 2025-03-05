@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
         child: const Column(
           children: [
             Text(
-              "Hey, Mike",
+              "Hey, Rebecca!",
               style: TextStyle(
                   color: Colors.black,
                   fontSize: 20,
