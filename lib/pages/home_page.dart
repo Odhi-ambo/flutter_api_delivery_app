@@ -15,6 +15,7 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         margin: const EdgeInsets.only(top: 50, left: 20),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               "Hey, Rebecca!",
@@ -22,7 +23,10 @@ class _HomePageState extends State<HomePage> {
             ),
             Text(
               'How You?!',
-              style: TextStyle(color: Colors.black54, fontSize: 20),
+              style: TextStyle(
+                  color: Colors.black54,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold),
             )
           ],
         ),
