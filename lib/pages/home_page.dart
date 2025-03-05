@@ -13,6 +13,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xfff2f2f2f2),
       body: Container(
         margin: const EdgeInsets.only(top: 50, left: 20, right: 20),
         child: Column(
@@ -48,7 +49,9 @@ class _HomePageState extends State<HomePage> {
             Container(
               decoration: BoxDecoration(color: Colors.white),
               width: MediaQuery.of(context).size.width,
-              child: TextField(),
+              child: TextField(
+                decoration: InputDecoration(border: InputBorder.none),
+              ),
             )
           ],
         ),
