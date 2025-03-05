@@ -1,4 +1,3 @@
-import 'package:deli_app/pages/home_page.dart';
 import 'package:deli_app/pages/onboarding.dart';
 import 'package:flutter/material.dart';
 
